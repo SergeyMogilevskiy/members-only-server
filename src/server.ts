@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import { routes } from './routes';
 
 const app = express();
-
+app.get('sas', (req, res) => {});
 app.use(bodyParser.json());
 
 routes.forEach((route) => {
