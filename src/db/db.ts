@@ -1,6 +1,6 @@
 import { Db, MongoClient, MongoClientOptions } from 'mongodb';
 
-const DB_NAME = 'DB_NAME';
+const DB_NAME = 'members-only';
 
 interface DP_Props {
   _dbClient: MongoClient | null;
