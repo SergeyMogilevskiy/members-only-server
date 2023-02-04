@@ -6,6 +6,7 @@ interface DP_Props {
   _dbClient: MongoClient | null;
   connect: (url: string) => void;
   getConnection: () => Db;
+  close: () => void;
 }
 
 export const db: DP_Props = {
@@ -30,5 +31,11 @@ export const db: DP_Props = {
     }
 
     return this._dbClient.db(DB_NAME);
+  },
+  close: function () {
+    if (this._dbClient) {
+      this._dbClient.close();
+      this._dbClient = null;
+    }
   },
 };
