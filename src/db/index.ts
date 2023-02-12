@@ -1,10 +1,12 @@
 export { acceptRequest } from './acceptRequest';
+export { addMessageToGroup } from './addMessageToGroup';
 export { createGroup } from './createGroup';
 export { createJoinRequest } from './createJoinRequest';
 export { db } from './db';
 export { getAllGroups } from './getAllGroups';
 export { getGroup } from './getGroup';
 export { getMemberPopulatedGroup } from './getMemberPopulatedGroup';
+export { getMessagesForGroup } from './getMessagesForGroup';
 export { getOwnerPopulatedGroup } from './getOwnerPopulatedGroup';
 export { getRequestsForGroup } from './getRequestsForGroup';
 export { getUser } from './getUser';
