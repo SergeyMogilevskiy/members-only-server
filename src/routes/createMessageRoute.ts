@@ -1,4 +1,4 @@
-import { RouteProps } from './types';
+import { RouteProps } from '../types';
 
 export const createMessageRoute: RouteProps = {
   method: 'post',

@@ -1,4 +1,4 @@
-import { RouteProps } from './types';
+import { RouteProps } from '../types';
 import * as admin from 'firebase-admin';
 import { createGroup } from '../db';
 

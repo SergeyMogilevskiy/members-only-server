@@ -1,4 +1,4 @@
-import { RouteProps } from './types';
+import { RouteProps } from '../types';
 import { getAllGroups } from '../db';
 import { getUser } from '../db/getUser';
 

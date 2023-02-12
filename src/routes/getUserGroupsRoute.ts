@@ -1,5 +1,5 @@
 import * as admin from 'firebase-admin';
-import { RouteProps } from './types';
+import { RouteProps } from '../types';
 import { getUserGroups } from '../db';
 
 export const getUserGroupsRoute: RouteProps = {

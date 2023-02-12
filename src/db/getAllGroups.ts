@@ -1,7 +1,7 @@
 import { db } from './db';
 import { getUser } from './getUser';
 
-interface Group {
+export interface Group {
   _id: string;
   id: string;
   name: string;
